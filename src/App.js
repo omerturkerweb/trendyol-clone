@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/Header";
+import Options from "./components/Options";
+import ProductBanners from "./components/ProductBanners";
+import Products from "./components/Products";
+import Titles from "./components/Titles";
+import Footer from "./components/Footer";
+import TrendyolProvider from "./trendyol-context/TrendyolContext";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TrendyolProvider>
+        <div className="app_main w-4/5  mx-auto">
+          <Header />
+          <Options />
+          <Titles />
+          <ProductBanners />
+          {/*  <Products />
+        <Footer />
+       */}
+        </div>
+      </TrendyolProvider>
+    </>
   );
 }
 
