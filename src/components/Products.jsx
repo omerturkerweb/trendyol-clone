@@ -1,7 +1,8 @@
+import Highlights from "./products/Highlights";
 export default function Products() {
   return (
     <>
-      <h3>Products</h3>
+      <Highlights />
     </>
   );
 }

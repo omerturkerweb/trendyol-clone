@@ -9,12 +9,12 @@ export default function Options() {
     infinite: true,
     speed: 500,
     slidesToShow: 10,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     arrows: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
   };
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;

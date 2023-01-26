@@ -12,6 +12,8 @@ module.exports = {
         header_search: "#F3F3F3",
         brand_color_1: "#f28d3d",
         banner_bottom_bg: "#1b1b1b",
+        highlights_bg: "#fffaf6",
+        highlights_free_cargo_bg: "#535353",
       },
       fontFamily: {
         general_font_family: "'Source Sans Pro', sans-serif",

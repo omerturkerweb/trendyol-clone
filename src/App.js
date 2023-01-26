@@ -14,9 +14,9 @@ function App() {
           <Options />
           <Titles />
           <ProductBanners />
-          {/*  <Products />
-        <Footer />
-       */}
+          <Products />
+          {/*   <Footer />
+           */}
         </div>
       </TrendyolProvider>
     </>
