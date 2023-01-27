@@ -17,3 +17,9 @@
 .slick-arrow {
   background-color: red;
 }
+.slick-list {
+  max-height: 300px;
+}
+.highlight_slider .slick-slide {
+  margin: 0 7px;
+}

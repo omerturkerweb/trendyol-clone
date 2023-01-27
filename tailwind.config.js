@@ -7,6 +7,8 @@ module.exports = {
         header_top_link: "#999999",
         brand_color_1: "#f28d3d",
         header_menu_item: "#333333",
+        highlight_description_bg: "#666666",
+        highlight_description_old_price: "#878787",
       },
       backgroundColor: {
         header_search: "#F3F3F3",

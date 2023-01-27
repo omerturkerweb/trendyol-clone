@@ -190,7 +190,7 @@ const Provider = ({ children }) => {
       title: "Embeauty",
       description:
         "Inceltici, Sıkılaştırıcı, Selülit Ve Çatlak Karşıtı Vücut Şekillendirici Jel 250 ml",
-      oldPrice: null,
+      oldPrice: "120,00",
       price: "111,40",
       freeCargo: true,
       special: "bestseller",
@@ -213,7 +213,7 @@ const Provider = ({ children }) => {
       img: "https://cdn.dsmcdn.com/ty328/product/media/images/20220209/8/47355058/383493169/2/2_org_zoom.png",
       title: "Netflix",
       description: "Digital Code 200 TL Hediye Kartı",
-      oldPrice: null,
+      oldPrice: "220",
       price: "200",
       freeCargo: false,
       special: "bestseller",
@@ -283,7 +283,7 @@ const Provider = ({ children }) => {
       title: "ARBEN TEDARİK",
       description:
         "Arbentedarik Dambıl Seti 5 Kg X 2 Adet 10 Kg Ağırlık Seti Dumbell Set",
-      oldPrice: null,
+      oldPrice: "99.90",
       price: "89,90",
       freeCargo: false,
       special: "bestseller",
