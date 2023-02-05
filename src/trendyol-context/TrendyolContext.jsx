@@ -301,6 +301,124 @@ const Provider = ({ children }) => {
       note: null,
     },
   ]);
+  const [mostSeller, setMostSeller] = useState([
+    {
+      id: 1,
+      img: "https://cdn.dsmcdn.com/ty693/product/media/images/20230119/0/261052861/503253845/1/1_org.jpg",
+      title: "Embeauty",
+      description:
+        "Inceltici, Sıkılaştırıcı, Selülit Ve Çatlak Karşıtı Vücut Şekillendirici Jel 250 ml",
+      oldPrice: "120,00",
+      price: "111,40",
+      freeCargo: true,
+      special: "bestseller",
+      note: "300 TL Üzeri 30 TL İndirim",
+    },
+    {
+      id: 2,
+      img: "https://cdn.dsmcdn.com/ty671/product/media/images/20221231/14/249860779/19982561/1/1_org.jpg",
+      title: "Copierbond",
+      description:
+        "Copier Bond (ve-ge) A4 80gr/m2 Fotokopi Kağıdı 2500 Adet (5pk*500) 1 Koli ",
+      oldPrice: null,
+      price: "372",
+      freeCargo: true,
+      special: "bestseller",
+      note: null,
+    },
+    {
+      id: 3,
+      img: "https://cdn.dsmcdn.com/ty328/product/media/images/20220209/8/47355058/383493169/2/2_org_zoom.png",
+      title: "Netflix",
+      description: "Digital Code 200 TL Hediye Kartı",
+      oldPrice: "220",
+      price: "200",
+      freeCargo: false,
+      special: "bestseller",
+      note: null,
+    },
+    {
+      id: 4,
+      img: "https://cdn.dsmcdn.com/ty670/product/media/images/20230102/14/250398957/233572507/1/1_org.jpg",
+      title: "İlbay's",
+      description:
+        "Fabrika Satış Mağazası-Orijinal ithal 3'lü Mikrofiber Temizlik Bezi- İlbay",
+      oldPrice: null,
+      price: "99,24",
+      freeCargo: false,
+      special: "bestseller",
+      note: null,
+    },
+    {
+      id: 5,
+      img: "https://cdn.dsmcdn.com/ty671/product/media/images/20221231/10/249754101/551856156/1/1_org.jpg",
+      title: "kalides",
+      description: "Parabox - 10.000tl Kumbara - Para Biriktirme Hedef Kutusu",
+      oldPrice: null,
+      price: "25,89",
+      freeCargo: false,
+      special: "bestseller",
+      note: "7 Ürün Alana %28 İndirim",
+    },
+    {
+      id: 6,
+      img: "https://cdn.dsmcdn.com/ty628/product/media/images/20221208/5/230526909/624165360/1/1_org.jpg",
+      title: "Renkli Duvarlar",
+      description:
+        "Beyaz 3d Dekoratif Kendinden Yapışkanlı Duvar Kağıdı Kaplama Paneli",
+      oldPrice: null,
+      price: "5,95",
+      freeCargo: false,
+      special: "bestseller",
+      note: "7 Ürün Alana %28 İndirim",
+    },
+    {
+      id: 7,
+      img: "	https://cdn.dsmcdn.com/ty676/product/media/images/20230106/12/252912905/618282849/2/2_org.jpg",
+      title: "comedones",
+      description:
+        "Dijital Baskül Yağ Su Kas Vücut Kitle Endeksi Kilo Ölçer Tartı",
+      oldPrice: null,
+      price: "142,80",
+      freeCargo: true,
+      special: "starred",
+      note: "350 TL'ye %1 İndirim",
+    },
+    {
+      id: 8,
+      img: "https://cdn.dsmcdn.com/ty336/product/media/images/20220221/22/54992434/233033442/1/1_org.jpg",
+      title: "Zeno",
+      description: "Buz Kırma Oyunu",
+      oldPrice: null,
+      price: "59,90",
+      freeCargo: false,
+      special: "bestseller",
+      note: null,
+    },
+    {
+      id: 9,
+      img: "https://cdn.dsmcdn.com/ty332/product/media/images/20220212/15/49122631/385877578/1/1_org.jpg",
+      title: "ARBEN TEDARİK",
+      description:
+        "Arbentedarik Dambıl Seti 5 Kg X 2 Adet 10 Kg Ağırlık Seti Dumbell Set",
+      oldPrice: "99.90",
+      price: "89,90",
+      freeCargo: false,
+      special: "bestseller",
+      note: null,
+    },
+    {
+      id: 10,
+      img: "https://cdn.dsmcdn.com/ty582/product/media/images/20221102/11/205732331/531741140/1/1_org.jpg",
+      title: "Queen's Kitchen",
+      description: "Tepsili Lüx 6 Bölmeli Kahvaltılık Seti",
+      oldPrice: null,
+      price: "59,49",
+      freeCargo: false,
+      special: "bestseller",
+      note: null,
+    },
+  ]);
 
   const value = {
     headerMenuItems,
@@ -313,6 +431,8 @@ const Provider = ({ children }) => {
     setProductBanners,
     highlights,
     setHighlights,
+    mostSeller,
+    setMostSeller,
   };
   return (
     <TrendyolContext.Provider value={value}>

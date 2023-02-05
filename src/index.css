@@ -20,6 +20,9 @@
 .slick-list {
   max-height: 300px;
 }
-.highlight_slider .slick-slide {
-  margin: 0 7px;
+.slick-slide {
+  margin: 0 5px;
+}
+.slider_container .slick-slider .slick-list .slick-track {
+  height: 50px !important;
 }

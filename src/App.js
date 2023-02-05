@@ -15,6 +15,7 @@ function App() {
           <Titles />
           <ProductBanners />
           <Products />
+          <ProductBanners />
           {/*   <Footer />
            */}
         </div>

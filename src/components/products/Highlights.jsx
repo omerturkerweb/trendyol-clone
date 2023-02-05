@@ -38,7 +38,7 @@ export default function Highlights() {
     );
   }
   return (
-    <div className="highlights_main !bg-highlights_bg px-5">
+    <div className="highlights_main mt-2  !bg-highlights_bg px-5">
       <div className="highlights_main_top flex flex-row justify-between px-1 py-2">
         <span className="text-header_menu_item text-[22px] font-semibold font-general_font_family ">
           Öne Çıkanlar
@@ -47,7 +47,7 @@ export default function Highlights() {
           Tüm Ürünler!
         </span>
       </div>
-      <div className="highlights_main_content items-center pb-5">
+      <div className="highlights_main_content  items-center pb-5">
         <Slider className="highlight_slider" {...settings}>
           {highlights.map((highlight, index) => {
             return (
