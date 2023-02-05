@@ -1,3 +1,29 @@
+
+# Trendyol Index Clone
+
+-One of the most used e-commerce sites in Turkey, trendyol's home page clone study
+
+
+## Used Technologies
+
+- React
+- Tailwind
+- React Slick 
+
+
+## Screenshots
+
+![ScreenShot](https://img001.prntscr.com/file/img001/GUL5RqQFTH2-Qaet7SLdBA.png)
+
+ 
+
+
+## Trendyol Official Website
+
+-https://www.trendyol.com/
+
+  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
