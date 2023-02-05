@@ -1,7 +1,7 @@
 
 # Trendyol Index Clone
 
--One of the most used e-commerce sites in Turkey, trendyol's home page clone study
+- One of the most used e-commerce sites in Turkey, trendyol's home page clone study
 
 
 ## Used Technologies
@@ -10,6 +10,8 @@
 - Tailwind
 - React Slick 
 
+## Live Demo (netlify)
+- https://master--glowing-semolina-ec4ec9.netlify.app/
 
 ## Screenshots
 
@@ -20,7 +22,7 @@
 
 ## Trendyol Official Website
 
--https://www.trendyol.com/
+ # https://www.trendyol.com/
 
   
 
